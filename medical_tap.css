@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px)
+{
+    *{
+      overflow-x: hidden;
+    }
+    .navigation{
+        width: 100%;
+        gap: unset;
+        position: fixed;
+    }
+    #top_web_name{
+        margin-left: 10px;
+    }
+    /*FIRST CONTAIER*/
+    .first_container{
+        width: 100%;
+        display: grid;
+    grid-template-columns: 50% 50%;
+    }
+    .first_container_1_a{
+        position: relative;
+        margin-left: 10px;
+        line-height: 55px;
+    }
+    .first_container_1_a h1{
+        font-size: 40px;
+    }
+    .first_container_2 img{
+        width: 22.5rem;
+        height: 25rem;
+    }
+
+    /*SECOND CONTAINER*/
+    .second_container_1{
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    .second_container_2{
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .card{
+        width: 230px;
+        height: 280px;
+    }
+    .midalc_ard_image{
+        overflow-y: hidden;
+    }
+    /*THIRD CONTAINER*/
+    #vector,#nurse{
+        margin-top: 0rem;
+    }
+    .third_container_1{
+        margin-left:unset;
+        width: 70%;
+    }
+    .third_container_2{
+        width: 60%;
+    }
+    #vector{
+        height: 300px;
+        width: 400px;
+    }
+    #nurse{
+        margin-left: 20%;
+        width: 200px;
+        height: 300px;
+    }
+    .third_container_2_a{
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    /*FOURTH CONTAINER*/
+    #hint_a{
+        margin-right: unset;
+    }
+    .fourth_container_2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    /*FIFTH CONTAINER*/
+    .fifth_container_2{
+        
+        margin-top: 5rem;
+        flex-direction: column;
+    }
+    /*SIXTH CONTAINER*/
+    .sixth_container_2{
+        display: grid;
+        grid-template-columns: 40% 40% ;
+    }
+    .medical_community{
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+    }
+    /*SEVENTH CONTAINER*/
+    .seventh_container_2-1{
+        margin-left: 5rem;
+    }
+    /*NINETH CONTAINER*/
+    .nineth_container{
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24% 20%;
+        margin-left: 20px;
+    }
+    .tenth_container{
+        grid-gap: unset;
+        grid-template-columns: 80% 20%;
+    }
+}
